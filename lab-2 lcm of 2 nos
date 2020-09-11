@@ -1,0 +1,31 @@
+# LCM of two numbers
+
+x= float (input ("Enter first number: "))
+
+y = float (input ("Enter second number: "))
+
+f (x > y) :
+
+greater = x
+
+else:
+
+greater = y
+
+while (True):
+
+if (greater x == 0) and (greater y == 0)) :
+
+lcm = greater
+
+break
+
+greater += 1
+
+print ("The L.C.M. is", lcm)
+
+
+Output :
+Enter first number:45
+Enter second number:50
+The L.C.M. is 450
