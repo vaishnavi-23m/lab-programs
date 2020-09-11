@@ -1,0 +1,23 @@
+a=[]
+n= int(input("Enter the number of elements in list:"))
+for x in range(0,n):
+    element=int(input("Enter element" + str(x+1) + ":"))
+    a.append(element)
+b = set()
+unique = []
+for x in a:
+    if x not in b:
+        unique.append(x)
+        b.add(x)
+print("Non-duplicate items:")
+print(unique)
+
+output:
+Enter the number of elements in list :5
+Enter element1:1
+Enter element2:2
+Enter element3:1
+Enter element4:3
+Enter element5:4
+Non-duplicate items:
+[1,2,3,4]
